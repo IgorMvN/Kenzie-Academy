@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários e input</title>
+</head>
+
+<body>
+
+    <form>
+
+        <!--formulario normal-->
+
+        <h1>Instagram</h1>
+
+        <label for="login">Username</label>
+        <input type="text" placeholder="Usuário" id="login" name="login" maxlength="8" required="true">
+
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="senha de 5 dígitos" maxlength="5" required="true">
+
+        <button type="submit">Entrar</button>
+    </form>
+
+
+    <!--formulário radio-->
+
+    <form>
+        <hr color="white">
+
+        <h3>Recuperar Senha</h3>
+        <h6>qual método de recuperação de senha?</h6>
+
+        <input type="radio" id="email" name="RecuperarSenha" value="email">
+        <label for="email">E mail</label>
+
+
+
+        <input type="radio" id="celular" name="RecuperarSenha" value="celular">
+        <label for="celular">Celular</label>
+
+
+        <input type="radio" id="sms" name="RecuperarSenha" value="sms">
+        <label for="sms">SMS</label>
+        <br>
+        <br>
+        <button type="submit">Recuperar</button>
+
+        <!--SELECT-->
+        <br>
+        <br>
+        <label for="autenticacao">Ativar autenticação em 2 fatores?</label>
+        <br>
+        <br>
+        <select name="autenticacao" id="autenticacao" required>
+            <option value="">Selecione uma opção</option>
+            <option value="Sim">Sim</option>
+            <option value="Não">Não</option>
+
+        </select>
+        <br>
+        <br>
+        
+        <button type="submit">Enviar</button>
+
+
+    </form>
+
+
+
+</body>
+
+</html>

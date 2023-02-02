@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Kenzie Academy</title>
+</head>
+
+<body>
+    <center>
+        <fieldset>
+            <form>
+                <label>
+                    <label for="nome">
+                        <h3>Nome</h3>
+                    </label>
+
+                    <input type="text" id="nome" name="nome" placeholder="Seu Nome" required></input>
+                    <br>
+                    <br>
+
+                    <label for="email">
+                        <h3>E mail</h3>
+                    </label>
+
+                    <input type="email" id="email" name="email" placeholder="Seu Email" required></input>
+                    <br>
+                    <br>
+
+                    <label for="contemais">
+                        <h4>Conte mais sobre você</h4>
+                    </label>
+
+                    <textarea type="text" id="contemais" name="contemais" placeholder="o que o motivou a participar?" rows="10" cols="40"></textarea>
+                    <br>
+                    <br>
+
+                    <label for="modulo">
+                        <h4>Qual módulo deseja participar?</h4>
+                    </label>
+                    <select type="radio" id="modulo" name="modulo" required>
+                        <option hidden>Selecione seu Módulo</option>
+                        <option id="m1" value="M1" name="modulo">M1</option>
+                        <option id="m2" value="M2" name="modulo">M2</option>
+                        <option id="m3" value="M3" name="modulo">M3</option>
+                        <option id="m4" value="M4" name="modulo">M4</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="senha"><strong>Cadastre uma senha</strong></label>
+                    <input type="password" id="senha" name="senha" placeholder="senha de 5 digitos" maxlength="5" required>
+
+                    <br>
+                    <br>
+                    <label for="confirme"><strong>Confirme sua senha</strong></label>
+
+                    <input type="password" id="confirme" name="confirme" placeholder="digite novamente a senha"
+                        maxlength="5" required>
+                    <br>
+                    <br>
+                    <label for="news"><strong>Deseja assinar newsletter?</strong></label>
+                    <br>
+
+                    <Label for="news_sim">Sim</Label>
+                    <input type="radio" id="sim" name="opcoes" value="sim">
+
+                    <label for="news_não">Não</label>
+                    <input type="radio" id="não" name="opcoes" value="não"></label>
+
+                </input>
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
+        </fieldset>
+
+
+
+
+        </form>
+
+
+
+
+</body>
+
+</html>
